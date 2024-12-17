@@ -9,6 +9,9 @@ for i in range(end):
     end -= 1
 print(arr)
 
+
+"Another example"
+
 class Solution:
     def reverseArray(self, arr):
         n=len(arr)
@@ -25,7 +28,9 @@ print(Solution().reverseArray(arr)) # Expected output: [6, 5, 4, 3, 2, 1]
 
 """Description"""
 
-"""Your program should reverse the given array in-place and return the reversed array. As you can see that the solution uses a simple two-pointer approach to swap elements from the start and end of the array, resulting in an efficient solution with a time complexity of O(n)."""
+"""Your program should reverse the given array in-place and return the reversed array. As you can see that the 
+solution uses a simple two-pointer approach to swap elements from the start and end of the array, resulting in 
+an efficient solution with a time complexity of O(n)."""
 
 """Example:
 Input: [1, 2, 3, 4, 5, 6]
